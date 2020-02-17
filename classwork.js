@@ -1,6 +1,6 @@
 // JavaScript link to HTML test
 // *Start of Code*
-console.log("Your Javascript file is linked correctly.")
+// console.log("Your Javascript file is linked correctly.")
 // *End of Code*
 
 // // # Javascript Conditionals Classwork
@@ -69,7 +69,7 @@ console.log("Your Javascript file is linked correctly.")
 // ### Problem 4 :
 // Define a variable called `secretWord` with the string value "secret". Ask the user to enter a word. Ask the user to enter another word. If the words are the same OR one of the words matches `secretWord` print 
 // You got in...but we don't know how
-// If both words are the same but DO NOT match `secretWord` print
+// If both words are the same but DO NOT match `secretWord` print---------
 // You got in...but only because your words matched
 // If only one of the words matched `secretWord` print
 // You got in..but only because one of your words matched the secret word
@@ -78,13 +78,26 @@ console.log("Your Javascript file is linked correctly.")
 // Otherwise print
 // Locked Out
 
-// *Start of Code*
-let secretWord = "secret";
-let userWord = prompt("Enter a word.");
-let userWord2 = prompt("Enter another word.");
-if (userWord == userWord2 || userWord == secretWord || userWord2 == secretWord) {
-    console.log("You got in..but we don't know how");
-}
+// // *Start of Code*
+// let secretWord = "secret";
+// let userWord = prompt("Enter a word.");
+// let userWord2 = prompt("Enter another word.");
+// if (userWord == userWord2 || userWord == secretWord || userWord2 == secretWord) {
+//     console.log("You got in..but we don't know how");
+// }
+// else if (userWord == userWord2 && userWord != secretWord && userWord2 != secretWord) {
+//     console.log("You got in...but only because your words matched.");
+// }
+// // else if () {
+// //     console.log("You got in..but only because one of your words matched the secret word");
+// // }
+// // else if () {
+// //     console.log("You got in!");
+// // }
+// else {
+//     console.log("Locked Out");
+// }
+// //*End of Code*
 
 
 // ### Challenge:
