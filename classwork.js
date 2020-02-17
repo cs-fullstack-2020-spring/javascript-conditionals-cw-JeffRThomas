@@ -78,6 +78,13 @@ console.log("Your Javascript file is linked correctly.")
 // Otherwise print
 // Locked Out
 
+// *Start of Code*
+let secretWord = "secret";
+let userWord = prompt("Enter a word.");
+let userWord2 = prompt("Enter another word.");
+if (userWord == userWord2 || userWord == secretWord || userWord2 == secretWord) {
+    console.log("You got in..but we don't know how");
+}
 
 
 // ### Challenge:
